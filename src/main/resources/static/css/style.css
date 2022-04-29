@@ -1,0 +1,9 @@
+.thymeleaf3{
+    background-color: darkblue;
+    box-shadow: 1px 1px 5px 1px rgb(0,0,0,.8);
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
