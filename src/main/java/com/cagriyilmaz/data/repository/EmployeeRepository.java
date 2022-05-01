@@ -1,4 +1,4 @@
-package com.cagriyilmaz.repository;
+package com.cagriyilmaz.data.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.CrudRepository;

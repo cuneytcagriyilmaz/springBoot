@@ -1,4 +1,4 @@
-package com.cagriyilmaz.dto;
+package com.cagriyilmaz.business.dto;
 
 
 import lombok.AllArgsConstructor;

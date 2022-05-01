@@ -1,4 +1,4 @@
-package com.cagriyilmaz.entity;
+package com.cagriyilmaz.data.entity;
 
 import lombok.Getter;
 import lombok.Setter;
