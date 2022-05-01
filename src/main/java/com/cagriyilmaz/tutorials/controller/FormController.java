@@ -1,6 +1,6 @@
-package com.cagriyilmaz.controller;
+package com.cagriyilmaz.tutorials.dto.controller;
 
-import com.cagriyilmaz.dto.TeacherDto;
+import com.cagriyilmaz.tutorials.dto.TeacherDto;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

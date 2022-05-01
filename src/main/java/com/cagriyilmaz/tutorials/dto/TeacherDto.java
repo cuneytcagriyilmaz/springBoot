@@ -1,4 +1,4 @@
-package com.cagriyilmaz.dto;
+package com.cagriyilmaz.tutorials.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

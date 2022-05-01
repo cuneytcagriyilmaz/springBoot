@@ -1,4 +1,4 @@
-package com.cagriyilmaz.dto;
+package com.cagriyilmaz.tutorials.dto;
 
 import java.util.Date;
 

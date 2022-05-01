@@ -1,6 +1,6 @@
-package com.cagriyilmaz.bean;
+package com.cagriyilmaz.tutorials.bean;
 
-import com.cagriyilmaz.dto.BeanDto;
+import com.cagriyilmaz.tutorials.dto.BeanDto;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
