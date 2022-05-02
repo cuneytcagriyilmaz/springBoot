@@ -1,5 +1,7 @@
 package com.cagriyilmaz.data.entity;
 
+import com.fasterxml.jackson.databind.ser.Serializers;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,26 +9,23 @@ import lombok.extern.log4j.Log4j2;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-
 import javax.persistence.Table;
 import java.io.Serializable;
 
-//DATABASE'E SAKLANACAK YAPILAR
+
 @Data
 @NoArgsConstructor
 @Builder
 @Log4j2
 
-@Entity
+@Entity //Database işlemleri için
 @Table(name = "employees")
-public class EmployeeEntity extends BaseEntity implements Serializable {
+public class EmployeeEntity extends Serializers.Base implements Serializable {
 
     @Column(name = "first_name")
     private String firstName;
-
     @Column(name = "last_name")
     private String lastName;
-
     @Column(name = "email_name")
     private String emailId;
 

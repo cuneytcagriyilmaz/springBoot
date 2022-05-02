@@ -7,6 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
         org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration.class,
         org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration.class}
 )
+/*
+
+@SpringBootApplication(exclude = {
+        org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration.class,
+        org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration.class}
+)
+
+ */
 
 
 public class Application {

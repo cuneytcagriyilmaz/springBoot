@@ -10,38 +10,42 @@ import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
+import javax.xml.crypto.Data;
 import java.util.Date;
+
 
 @MappedSuperclass
 @Getter
 @Setter
 @EntityListeners(AuditingEntityListener.class)
 public class BaseEntity {
-    @Id
-    @Column(name = "id",nullable = false)
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    private Long id;
+    @Id
+    @Column(name = "id",nullable = false) // boş geçilemez
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private  Long id;
 
     @Column(name = "created_by")
     @CreatedBy
+    //kim ne zaman ne yaptı
     private String createdBy; // kim oluşturdu
 
     @Column(name = "created_date")
     @CreatedDate
     private Date createdDate; // ne zaman oluşturdu
 
+
+    //update
     @Column(name = "update_by")
-    @LastModifiedBy // kimin tarafından oluşturuldu
-    private String updateBy;
+    @LastModifiedBy
+    private String updateBy; // kim güncelledi
 
     @Column(name = "update_date")
     @LastModifiedDate
-    private Date updateDate;
+    private Date updateDate; // ne zaman güncelledi
 
     @Column(name = "system_auto_date")
-    @Temporal(TemporalType.TIMESTAMP) //yıl ay gün saat dakika saniye olarak eklenir
     @CreationTimestamp
+    @Temporal(TemporalType.TIMESTAMP)
     private Date date;
-
 }
