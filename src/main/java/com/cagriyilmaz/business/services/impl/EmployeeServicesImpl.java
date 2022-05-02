@@ -83,8 +83,9 @@ public class EmployeeServicesImpl implements EmployeeServices {
     // http:/localhost:8001/api/v/employees/1
     @DeleteMapping("/employees/{id}")
     @Override
-    public ResponseEntity<Map<String, Boolean>> deleteEmployee(@PathVariable Long id) {
-        EmployeeEntity employee = employeeRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("Employee not exist with id: " + id));
+    public ResponseEntity<Map<String, Boolean>> deleteEmployee(@PathVariable Long id) throws Throwable {
+        EmployeeEntity employee = (EmployeeEntity) employeeRepository.findById(id)
+                .orElseThrow(()-> new ResourceNotFoundException("Employee not exist with id: " + id));
         employeeRepository.delete(employee);
         Map<String, Boolean> response = new HashMap<>();
         response.put("deleted", Boolean.TRUE);
