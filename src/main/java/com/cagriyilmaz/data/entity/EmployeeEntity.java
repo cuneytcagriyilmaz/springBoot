@@ -20,7 +20,7 @@ import java.io.Serializable;
 
 @Entity //Database işlemleri için
 @Table(name = "employees")
-public class EmployeeEntity extends Serializers.Base implements Serializable {
+public class EmployeeEntity extends BaseEntity implements Serializable {
 
     @Column(name = "first_name")
     private String firstName;
