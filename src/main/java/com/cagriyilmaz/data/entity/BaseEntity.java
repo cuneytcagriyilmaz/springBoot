@@ -1,5 +1,6 @@
 package com.cagriyilmaz.data.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
@@ -14,10 +15,16 @@ import javax.xml.crypto.Data;
 import java.util.Date;
 
 
-@MappedSuperclass
+//Lombok
 @Getter
 @Setter
+
+//hibernate JPA
+@MappedSuperclass
+
+//Auditing
 @EntityListeners(AuditingEntityListener.class)
+@JsonIgnoreProperties(value = {"created_date,update_date"})
 public class BaseEntity {
 
     @Id
