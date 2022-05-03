@@ -1996,3 +1996,1414 @@ org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in excl
 2022-05-03 16:11:56.717  INFO 9860 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-05-03 16:11:56.719  INFO 9860 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-05-03 16:11:56.726  INFO 9860 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-03 16:22:07.213  INFO 16032 --- [Thread-5] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:22:07.214  INFO 16032 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:22:07.217  INFO 16032 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-03 16:22:07.223  INFO 16032 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-03 16:22:07.299  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:22:07.300  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:22:07.642  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:22:07.642  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:22:07.652  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:22:07.652  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:22:07.656  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:22:07.656  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:22:07.672  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:22:07.767  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:22:07.767  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:22:07.768  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:22:07.810  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:22:07.810  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 507 ms
+2022-05-03 16:22:07.840  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-05-03 16:22:07.846  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-05-03 16:22:07.846  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:22:07.885  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:22:07.891  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:22:07.933  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:22:07.933  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:22:07.993  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:22:08.028  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:22:08.080  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:22:08.472  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:22:08.475  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:22:08.494  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:22:08.502  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.238 seconds (JVM running for 964.53)
+2022-05-03 16:22:08.504  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-03 16:22:51.290  INFO 16032 --- [Thread-7] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:22:51.291  INFO 16032 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:22:51.292  INFO 16032 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-05-03 16:22:51.294  INFO 16032 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-05-03 16:22:51.360  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:22:51.361  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:22:51.704  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:22:51.705  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:22:51.719  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:22:51.719  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:22:51.722  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:22:51.722  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:22:51.742  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:22:51.836  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:22:51.837  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:22:51.837  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:22:51.865  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:22:51.865  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 502 ms
+2022-05-03 16:22:51.889  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-05-03 16:22:51.893  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-05-03 16:22:51.894  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:22:51.931  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:22:51.936  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:22:51.969  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:22:51.969  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:22:52.023  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:22:52.058  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:22:52.109  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:22:52.495  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:22:52.498  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:22:52.517  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:22:52.525  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.194 seconds (JVM running for 1008.552)
+2022-05-03 16:22:52.526  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-03 16:22:53.954  INFO 16032 --- [Thread-11] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:22:53.954  INFO 16032 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:22:53.955  INFO 16032 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-05-03 16:22:53.957  INFO 16032 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-05-03 16:22:54.015  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:22:54.015  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:22:54.302  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:22:54.302  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:22:54.312  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:22:54.312  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:22:54.315  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:22:54.315  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:22:54.330  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:22:54.409  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:22:54.409  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:22:54.409  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:22:54.437  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:22:54.437  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 419 ms
+2022-05-03 16:22:54.460  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-05-03 16:22:54.465  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-05-03 16:22:54.465  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:22:54.499  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:22:54.504  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:22:54.536  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:22:54.536  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:22:54.584  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:22:54.615  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:22:54.658  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:22:55.002  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:22:55.005  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:22:55.022  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:22:55.029  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.04 seconds (JVM running for 1011.057)
+2022-05-03 16:22:55.031  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-03 16:23:31.573  INFO 16032 --- [Thread-15] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:23:31.573  INFO 16032 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:23:31.574  INFO 16032 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-05-03 16:23:31.576  INFO 16032 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-05-03 16:23:31.638  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:23:31.638  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:23:31.941  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:23:31.942  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:23:31.956  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:23:31.956  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:23:31.959  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:23:31.959  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:23:31.975  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:23:32.059  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:23:32.060  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:23:32.060  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:23:32.090  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:23:32.090  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 450 ms
+2022-05-03 16:23:32.120  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-05-03 16:23:32.125  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-05-03 16:23:32.125  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:23:32.161  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:23:32.167  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:23:32.200  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:23:32.200  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:23:32.252  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:23:32.284  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:23:32.327  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:23:32.744  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:23:32.747  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:23:32.767  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:23:32.775  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.163 seconds (JVM running for 1048.802)
+2022-05-03 16:23:32.776  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-03 16:23:34.210  INFO 16032 --- [Thread-19] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:23:34.210  INFO 16032 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:23:34.211  INFO 16032 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-05-03 16:23:34.213  INFO 16032 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-05-03 16:23:34.279  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:23:34.279  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:23:34.599  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:23:34.600  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:23:34.609  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:23:34.609  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:23:34.612  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:23:34.612  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:23:34.627  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:23:34.729  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:23:34.729  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:23:34.729  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:23:34.757  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:23:34.757  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 476 ms
+2022-05-03 16:23:34.781  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-05-03 16:23:34.785  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-05-03 16:23:34.785  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:23:34.829  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:23:34.835  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:23:34.865  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:23:34.865  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:23:34.914  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:23:34.945  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:23:34.989  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:23:35.344  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7a61cf26-edc7-4726-895b-fa25f6e2dddb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:23:35.419  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:23:35.426  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57851dce, org.springframework.security.web.context.SecurityContextPersistenceFilter@423d01b2, org.springframework.security.web.header.HeaderWriterFilter@33df6827, org.springframework.web.filter.CorsFilter@38078abe, org.springframework.security.web.csrf.CsrfFilter@5985d470, org.springframework.security.web.authentication.logout.LogoutFilter@7d0486d8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2485e12b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5bdea7b0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@22e9f033, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b382984, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@559a5d01, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1514634, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f011bcb, org.springframework.security.web.session.SessionManagementFilter@17f5cbef, org.springframework.security.web.access.ExceptionTranslationFilter@2722557b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@352f1c1b]
+2022-05-03 16:23:35.463  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:23:35.477  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:23:35.485  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.233 seconds (JVM running for 1051.513)
+2022-05-03 16:23:35.489  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ErrorPageSecurityFilterConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.web.access.WebInvocationPrivilegeEvaluator' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ErrorPageSecurityFilterConfiguration#errorPageSecurityInterceptor matched:
+      - @ConditionalOnBean (types: org.springframework.security.web.access.WebInvocationPrivilegeEvaluator; SearchStrategy: all) found bean 'privilegeEvaluator' (OnBeanCondition)
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SecurityAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher' (OnClassCondition)
+
+   SecurityAutoConfiguration#authenticationEventPublisher matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationEventPublisher; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SecurityFilterAutoConfiguration#securityFilterChainRegistration matched:
+      - @ConditionalOnBean (names: springSecurityFilterChain; SearchStrategy: all) found bean 'springSecurityFilterChain' (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   SecurityDataConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.data.repository.query.SecurityEvaluationContextExtension' (OnClassCondition)
+
+   SpringBootWebSecurityConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' managementSecurityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:24:01.733  INFO 16032 --- [Thread-23] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:24:01.734  INFO 16032 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:24:01.734  INFO 16032 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-05-03 16:24:01.737  INFO 16032 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-05-03 16:24:01.817  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:24:01.817  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:24:02.209  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:24:02.209  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:24:02.224  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:24:02.224  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:24:02.227  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:24:02.227  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:24:02.244  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:24:02.354  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:24:02.355  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:24:02.355  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:24:02.382  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:24:02.382  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 562 ms
+2022-05-03 16:24:02.413  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-05-03 16:24:02.418  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-05-03 16:24:02.419  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:24:02.458  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:24:02.464  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:24:02.493  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:24:02.493  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:24:02.541  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:24:02.573  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:24:02.620  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:24:03.087  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 579144bf-e471-4472-b0b2-a151040b19f7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:24:03.107  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:24:03.118  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3211d59e, org.springframework.security.web.context.SecurityContextPersistenceFilter@4004cb9d, org.springframework.security.web.header.HeaderWriterFilter@22011b4d, org.springframework.web.filter.CorsFilter@275a9721, org.springframework.security.web.csrf.CsrfFilter@3357dfe6, org.springframework.security.web.authentication.logout.LogoutFilter@7db3bef3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4d2e67e1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@11b637bc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1975fd44, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2be8555f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a0e07f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50ffa086, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@705e0198, org.springframework.security.web.session.SessionManagementFilter@4d219530, org.springframework.security.web.access.ExceptionTranslationFilter@19947490, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5bc01642]
+2022-05-03 16:24:03.159  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:24:03.189  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:24:03.205  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.42 seconds (JVM running for 1079.233)
+2022-05-03 16:24:03.212  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-03 16:24:04.637  INFO 16032 --- [Thread-27] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:24:04.637  INFO 16032 --- [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:24:04.638  INFO 16032 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-05-03 16:24:04.639  INFO 16032 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-05-03 16:24:04.705  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:24:04.705  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:24:04.913  WARN 16032 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'delegatingApplicationListener' defined in class path resource [com/cagriyilmaz/security/WebSecurityConfig.class]: Cannot register bean definition [Root bean: class [com.cagriyilmaz.security.WebSecurityConfig]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/cagriyilmaz/security/WebSecurityConfig.class]] for bean 'delegatingApplicationListener': There is already [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] bound.
+2022-05-03 16:24:04.918  INFO 16032 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-03 16:24:04.931 ERROR 16032 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'delegatingApplicationListener', defined in class path resource [com/cagriyilmaz/security/WebSecurityConfig.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2022-05-03 16:24:23.964  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:24:23.964  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:24:24.287  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:24:24.287  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:24:24.299  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:24:24.299  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:24:24.302  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:24:24.302  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:24:24.318  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:24:24.410  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:24:24.410  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:24:24.411  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:24:24.436  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:24:24.436  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 470 ms
+2022-05-03 16:24:24.459  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2022-05-03 16:24:24.463  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2022-05-03 16:24:24.464  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:24:24.501  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:24:24.506  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:24:24.536  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:24:24.536  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:24:24.614  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:24:24.632  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b375c350-08c8-41c4-b093-3d68dea8a898
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:24:24.642  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@437ae60e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c9bced5, org.springframework.security.web.header.HeaderWriterFilter@2350aeb5, org.springframework.security.web.csrf.CsrfFilter@315b9608, org.springframework.security.web.authentication.logout.LogoutFilter@ce340d8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4516714, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@28e74a08, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4f9687bf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4229959e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@708ec872, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@560df5d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4070209e, org.springframework.security.web.session.SessionManagementFilter@119de138, org.springframework.security.web.access.ExceptionTranslationFilter@691cb0a4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d6e21c7]
+2022-05-03 16:24:24.645  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:24:24.703  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:24:25.095  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:24:25.098  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:24:25.116  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:24:25.126  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.188 seconds (JVM running for 1101.153)
+2022-05-03 16:24:25.128  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' webSecurityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:24:26.553  INFO 16032 --- [Thread-31] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:24:26.554  INFO 16032 --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:24:26.555  INFO 16032 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2022-05-03 16:24:26.556  INFO 16032 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2022-05-03 16:24:26.620  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:24:26.620  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:24:26.917  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:24:26.917  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:24:26.927  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:24:26.928  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:24:26.931  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:24:26.931  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:24:26.946  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:24:27.029  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:24:27.030  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:24:27.030  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:24:27.056  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:24:27.056  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 434 ms
+2022-05-03 16:24:27.079  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2022-05-03 16:24:27.083  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2022-05-03 16:24:27.083  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:24:27.123  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:24:27.128  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:24:27.163  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:24:27.163  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:24:27.239  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:24:27.255  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4a11ddee-4fc0-483e-b977-4d0156d33fd7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:24:27.264  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67467, org.springframework.security.web.context.SecurityContextPersistenceFilter@4624105c, org.springframework.security.web.header.HeaderWriterFilter@6ab91ca6, org.springframework.security.web.csrf.CsrfFilter@3812df7d, org.springframework.security.web.authentication.logout.LogoutFilter@1f45d8df, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@385a7aca, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@34962ba6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1df2eba, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@25311feb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60e5a77a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@429bcbec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ab89861, org.springframework.security.web.session.SessionManagementFilter@6863d31a, org.springframework.security.web.access.ExceptionTranslationFilter@1626083a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@568aea4f]
+2022-05-03 16:24:27.266  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:24:27.321  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:24:27.651  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:24:27.653  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:24:27.670  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:24:27.678  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.081 seconds (JVM running for 1103.706)
+2022-05-03 16:24:27.680  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-03 16:24:50.777  INFO 16032 --- [Thread-38] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:24:50.777  INFO 16032 --- [Thread-38] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:24:50.778  INFO 16032 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2022-05-03 16:24:50.780  INFO 16032 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2022-05-03 16:24:50.849  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:24:50.849  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:24:51.187  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:24:51.187  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:24:51.197  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:24:51.197  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:24:51.201  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:24:51.201  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:24:51.216  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:24:51.308  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:24:51.308  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:24:51.309  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:24:51.336  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:24:51.336  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 485 ms
+2022-05-03 16:24:51.364  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2022-05-03 16:24:51.369  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2022-05-03 16:24:51.369  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:24:51.414  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:24:51.419  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:24:51.446  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:24:51.447  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:24:51.500  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:24:51.538  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:24:51.581  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:24:51.924  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b2173e7a-52af-4a02-bd90-39dfed0208e0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:24:51.934  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:24:51.939  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d593018, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c515ad9, org.springframework.security.web.header.HeaderWriterFilter@330aaba2, org.springframework.web.filter.CorsFilter@6fc88598, org.springframework.security.web.csrf.CsrfFilter@5cd89c7b, org.springframework.security.web.authentication.logout.LogoutFilter@30e9daaf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1c8f00c5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@40271e25, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@ba5398c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@78e70e05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43daac79, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@256b481b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4bf289db, org.springframework.security.web.session.SessionManagementFilter@74f22b78, org.springframework.security.web.access.ExceptionTranslationFilter@701be7e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@50743019]
+2022-05-03 16:24:51.961  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:24:51.977  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:24:51.985  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.161 seconds (JVM running for 1128.013)
+2022-05-03 16:24:51.987  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:24:53.458  INFO 16032 --- [Thread-42] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:24:53.459  INFO 16032 --- [Thread-42] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:24:53.459  INFO 16032 --- [Thread-42] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2022-05-03 16:24:53.461  INFO 16032 --- [Thread-42] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2022-05-03 16:24:53.530  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:24:53.530  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:24:53.819  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:24:53.819  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:24:53.829  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:24:53.830  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:24:53.833  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:24:53.833  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:24:53.847  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:24:53.933  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:24:53.933  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:24:53.933  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:24:53.959  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:24:53.959  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 428 ms
+2022-05-03 16:24:53.981  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2022-05-03 16:24:53.985  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2022-05-03 16:24:53.985  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:24:54.021  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:24:54.026  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:24:54.052  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:24:54.052  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:24:54.121  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:24:54.137  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d978bba0-f5a0-497b-a330-beb3fb5a7b5e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:24:54.145  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e2ff34d, org.springframework.security.web.context.SecurityContextPersistenceFilter@78c8bfbd, org.springframework.security.web.header.HeaderWriterFilter@444629e9, org.springframework.security.web.csrf.CsrfFilter@1975a015, org.springframework.security.web.authentication.logout.LogoutFilter@3123c801, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@64316853, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3631023a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4f6b5e41, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@59045b0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@419f77ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34630744, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20f7d40f, org.springframework.security.web.session.SessionManagementFilter@4c09db21, org.springframework.security.web.access.ExceptionTranslationFilter@1425b972, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c4da50c]
+2022-05-03 16:24:54.148  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:24:54.196  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:24:54.544  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:24:54.546  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:24:54.564  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:24:54.572  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.065 seconds (JVM running for 1130.6)
+2022-05-03 16:24:54.574  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' webSecurityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:25:34.175  INFO 16032 --- [Thread-46] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:25:34.176  INFO 16032 --- [Thread-46] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:25:34.177  INFO 16032 --- [Thread-46] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2022-05-03 16:25:34.179  INFO 16032 --- [Thread-46] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2022-05-03 16:25:34.264  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:25:34.264  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:25:34.681  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:25:34.681  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:25:34.691  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:25:34.692  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:25:34.695  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:25:34.695  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:25:34.710  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:25:34.800  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:25:34.801  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:25:34.801  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:25:34.830  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:25:34.830  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 564 ms
+2022-05-03 16:25:34.853  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2022-05-03 16:25:34.858  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2022-05-03 16:25:34.858  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:25:34.896  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:25:34.902  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:25:34.931  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:25:34.931  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:25:34.979  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:25:35.012  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:25:35.055  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:25:35.437  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 18b80685-ea46-4632-a6e4-22be82e11e47
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:25:35.449  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:25:35.454  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13250897, org.springframework.security.web.context.SecurityContextPersistenceFilter@108b902f, org.springframework.security.web.header.HeaderWriterFilter@5bacf023, org.springframework.web.filter.CorsFilter@2f3c0155, org.springframework.security.web.csrf.CsrfFilter@c5c4623, org.springframework.security.web.authentication.logout.LogoutFilter@189e0e4a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6c90a56e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@57bc794f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@466e7a09, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@138d44cc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50fa73b1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cebac65, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fbcfd2c, org.springframework.security.web.session.SessionManagementFilter@7e08bc93, org.springframework.security.web.access.ExceptionTranslationFilter@7df7a8df, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1da9a1d8]
+2022-05-03 16:25:35.476  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:25:35.490  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:25:35.498  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.263 seconds (JVM running for 1171.527)
+2022-05-03 16:25:35.500  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:25:36.960  INFO 16032 --- [Thread-50] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:25:36.961  INFO 16032 --- [Thread-50] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:25:36.962  INFO 16032 --- [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2022-05-03 16:25:36.964  INFO 16032 --- [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2022-05-03 16:25:37.048  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:25:37.048  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:25:37.369  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:25:37.369  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:25:37.380  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:25:37.380  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:25:37.383  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:25:37.383  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:25:37.397  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:25:37.483  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:25:37.483  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:25:37.483  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:25:37.508  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:25:37.508  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 458 ms
+2022-05-03 16:25:37.531  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2022-05-03 16:25:37.535  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2022-05-03 16:25:37.535  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:25:37.572  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:25:37.577  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:25:37.601  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:25:37.601  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:25:37.669  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:25:37.688  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c85c6794-1c7c-45ac-b84b-159177c52148
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:25:37.699  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c3f7e5b, org.springframework.security.web.context.SecurityContextPersistenceFilter@3aff1c3c, org.springframework.security.web.header.HeaderWriterFilter@1f03f7c1, org.springframework.security.web.csrf.CsrfFilter@5a257f2b, org.springframework.security.web.authentication.logout.LogoutFilter@5c004da1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7a0f8306, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@421d60f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42a02a8a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17bcac35, org.springframework.security.web.session.SessionManagementFilter@4b52fe5a, org.springframework.security.web.access.ExceptionTranslationFilter@52d559e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13f5e682]
+2022-05-03 16:25:37.704  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:25:37.760  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:25:38.094  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:25:38.096  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:25:38.116  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:25:38.124  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.102 seconds (JVM running for 1174.152)
+2022-05-03 16:25:38.125  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' webSecurityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:26:46.551  INFO 16032 --- [Thread-54] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:26:46.552  INFO 16032 --- [Thread-54] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:26:46.552  INFO 16032 --- [Thread-54] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2022-05-03 16:26:46.554  INFO 16032 --- [Thread-54] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2022-05-03 16:26:46.629  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:26:46.629  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:26:46.962  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:26:46.962  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:26:46.972  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:26:46.972  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:26:46.976  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:26:46.976  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:26:46.992  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:26:47.079  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:26:47.079  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:26:47.079  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:26:47.105  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:26:47.105  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 474 ms
+2022-05-03 16:26:47.128  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2022-05-03 16:26:47.133  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2022-05-03 16:26:47.133  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:26:47.170  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:26:47.175  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:26:47.202  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:26:47.202  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:26:47.263  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:26:47.313  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:26:47.367  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:26:47.858  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d105d6f2-dc82-4ad4-b964-4f84f8a80777
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:26:47.876  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:26:47.885  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6237ea32, org.springframework.security.web.context.SecurityContextPersistenceFilter@36137e43, org.springframework.security.web.header.HeaderWriterFilter@767ebe29, org.springframework.web.filter.CorsFilter@758d633c, org.springframework.security.web.csrf.CsrfFilter@4a00472c, org.springframework.security.web.authentication.logout.LogoutFilter@3b37a9ff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@494b307f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@66103674, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@65d57d3a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@596c2f44, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8ef0e91, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@be37653, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d7b68cb, org.springframework.security.web.session.SessionManagementFilter@7ee26f94, org.springframework.security.web.access.ExceptionTranslationFilter@22638434, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22d41b43]
+2022-05-03 16:26:47.927  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:26:47.972  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:26:47.985  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.382 seconds (JVM running for 1244.013)
+2022-05-03 16:26:47.989  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:28:52.243  INFO 16032 --- [Thread-58] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:28:52.243  INFO 16032 --- [Thread-58] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:28:52.244  INFO 16032 --- [Thread-58] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2022-05-03 16:28:52.245  INFO 16032 --- [Thread-58] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2022-05-03 16:28:52.314  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:28:52.314  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:28:52.609  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:28:52.609  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:28:52.620  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:28:52.620  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:28:52.623  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:28:52.623  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:28:52.638  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:28:52.723  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:28:52.723  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:28:52.723  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:28:52.749  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:28:52.749  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 434 ms
+2022-05-03 16:28:52.772  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2022-05-03 16:28:52.776  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2022-05-03 16:28:52.777  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:28:52.815  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:28:52.820  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:28:52.845  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:28:52.845  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:28:52.917  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:28:52.937  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ab66c24, org.springframework.security.web.context.SecurityContextPersistenceFilter@78333c88, org.springframework.security.web.header.HeaderWriterFilter@2808e5db, org.springframework.security.web.csrf.CsrfFilter@6b1d116e, org.springframework.security.web.authentication.logout.LogoutFilter@4fc90649, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@fc751ad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@600e4bb3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6877f312, org.springframework.security.web.session.SessionManagementFilter@343f4010, org.springframework.security.web.access.ExceptionTranslationFilter@180df1c2]
+2022-05-03 16:28:52.940  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:28:52.988  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:28:53.332  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:28:53.335  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:28:53.353  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:28:53.361  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.071 seconds (JVM running for 1369.389)
+2022-05-03 16:28:53.363  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' webSecurityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:29:56.616  INFO 16032 --- [Thread-62] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:29:56.617  INFO 16032 --- [Thread-62] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:29:56.618  INFO 16032 --- [Thread-62] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2022-05-03 16:29:56.620  INFO 16032 --- [Thread-62] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2022-05-03 16:29:56.705  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:29:56.706  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:29:57.055  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:29:57.055  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:29:57.066  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:29:57.066  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:29:57.069  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:29:57.069  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:29:57.084  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:29:57.177  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:29:57.178  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:29:57.178  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:29:57.204  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:29:57.204  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 495 ms
+2022-05-03 16:29:57.228  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2022-05-03 16:29:57.232  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2022-05-03 16:29:57.232  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:29:57.273  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:29:57.279  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:29:57.305  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:29:57.305  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:29:57.376  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:29:57.400  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@100d4a9a, org.springframework.security.web.context.SecurityContextPersistenceFilter@495abfd6, org.springframework.security.web.header.HeaderWriterFilter@40caac08, org.springframework.security.web.csrf.CsrfFilter@5b2e818f, org.springframework.security.web.authentication.logout.LogoutFilter@26be5b35, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@b543115, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1f88a237, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6f8b2455, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@27e300d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@577e5ab6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42c116bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@457d7c28, org.springframework.security.web.session.SessionManagementFilter@66d7787a, org.springframework.security.web.access.ExceptionTranslationFilter@6fce3e9d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6113dd4b]
+2022-05-03 16:29:57.403  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:29:57.460  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:29:57.843  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:29:57.846  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:29:57.865  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:29:57.872  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.199 seconds (JVM running for 1433.9)
+2022-05-03 16:29:57.874  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-03 16:30:44.769  INFO 16032 --- [Thread-66] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:30:44.770  INFO 16032 --- [Thread-66] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:30:44.770  INFO 16032 --- [Thread-66] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2022-05-03 16:30:44.772  INFO 16032 --- [Thread-66] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2022-05-03 16:30:44.839  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:30:44.839  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:30:45.134  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:30:45.134  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:30:45.144  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:30:45.144  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:30:45.148  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:30:45.148  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:30:45.162  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:30:45.253  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:30:45.254  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:30:45.254  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:30:45.280  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:30:45.280  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 439 ms
+2022-05-03 16:30:45.307  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
+2022-05-03 16:30:45.311  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
+2022-05-03 16:30:45.311  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:30:45.350  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:30:45.355  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:30:45.378  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:30:45.379  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:30:45.425  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:30:45.459  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:30:45.507  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:30:45.866  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a9f46f30-f0fc-46d4-99b9-6084676a1311
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:30:45.877  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:30:45.882  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@287895b5, org.springframework.security.web.context.SecurityContextPersistenceFilter@11f53bd2, org.springframework.security.web.header.HeaderWriterFilter@6d6b4cad, org.springframework.web.filter.CorsFilter@61c49992, org.springframework.security.web.csrf.CsrfFilter@34a2ac2e, org.springframework.security.web.authentication.logout.LogoutFilter@59a8689d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ea139ac, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@68ad6863, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@64fb05f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7f14aeb6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@569be09d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61a2d0c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cf4cf3e, org.springframework.security.web.session.SessionManagementFilter@30973232, org.springframework.security.web.access.ExceptionTranslationFilter@c697801, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f0d11fb]
+2022-05-03 16:30:45.906  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:30:45.921  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:30:45.929  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.114 seconds (JVM running for 1481.957)
+2022-05-03 16:30:45.931  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:31:23.562  INFO 16032 --- [Thread-70] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:31:23.563  INFO 16032 --- [Thread-70] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:31:23.564  INFO 16032 --- [Thread-70] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
+2022-05-03 16:31:23.566  INFO 16032 --- [Thread-70] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
+2022-05-03 16:31:23.640  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:31:23.641  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:31:23.972  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:31:23.972  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:31:23.982  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:31:23.982  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:31:23.985  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:31:23.985  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:31:24.000  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:31:24.086  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:31:24.087  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:31:24.087  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:31:24.112  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:31:24.112  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 469 ms
+2022-05-03 16:31:24.134  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
+2022-05-03 16:31:24.138  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Start completed.
+2022-05-03 16:31:24.138  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:31:24.174  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:31:24.179  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:31:24.201  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:31:24.201  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:31:24.266  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:31:24.287  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c1e7694, org.springframework.security.web.context.SecurityContextPersistenceFilter@b20b1aa, org.springframework.security.web.header.HeaderWriterFilter@38800862, org.springframework.security.web.csrf.CsrfFilter@3fbbf588, org.springframework.security.web.authentication.logout.LogoutFilter@33e7d4f8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3ac62391, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3812c354, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@337fc2fa, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5436996e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@531ac93a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b611823, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38aea5af, org.springframework.security.web.session.SessionManagementFilter@6b570efd, org.springframework.security.web.access.ExceptionTranslationFilter@1379737f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4904c14c]
+2022-05-03 16:31:24.290  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:31:24.337  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:31:24.665  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:31:24.667  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:31:24.685  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:31:24.693  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.081 seconds (JVM running for 1520.721)
+2022-05-03 16:31:24.694  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' webSecurityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:31:56.002  INFO 16032 --- [Thread-74] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:31:56.003  INFO 16032 --- [Thread-74] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:31:56.004  INFO 16032 --- [Thread-74] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
+2022-05-03 16:31:56.005  INFO 16032 --- [Thread-74] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
+2022-05-03 16:31:56.079  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:31:56.079  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:31:56.411  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:31:56.411  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:31:56.427  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:31:56.427  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:31:56.430  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:31:56.430  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:31:56.447  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:31:56.541  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:31:56.541  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:31:56.541  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:31:56.568  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:31:56.568  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 487 ms
+2022-05-03 16:31:56.594  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
+2022-05-03 16:31:56.598  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Start completed.
+2022-05-03 16:31:56.599  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:31:56.634  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:31:56.639  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:31:56.663  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:31:56.663  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:31:56.708  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:31:56.739  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:31:56.781  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:31:57.158  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b779897a-03b8-4aa3-a87b-c386359fde55
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:31:57.170  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:31:57.175  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a3f42a2, org.springframework.security.web.context.SecurityContextPersistenceFilter@31b088df, org.springframework.security.web.header.HeaderWriterFilter@1494fc68, org.springframework.web.filter.CorsFilter@41eef988, org.springframework.security.web.csrf.CsrfFilter@14a17875, org.springframework.security.web.authentication.logout.LogoutFilter@63258254, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@456cfb73, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5f97113e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@63fb25a5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6608b3e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ba44b96, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18608536, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@404f1d89, org.springframework.security.web.session.SessionManagementFilter@2e4d2fb3, org.springframework.security.web.access.ExceptionTranslationFilter@1536bb4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31d82296]
+2022-05-03 16:31:57.196  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:31:57.211  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:31:57.219  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.165 seconds (JVM running for 1553.247)
+2022-05-03 16:31:57.220  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:31:58.648  INFO 16032 --- [Thread-78] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:31:58.649  INFO 16032 --- [Thread-78] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:31:58.650  INFO 16032 --- [Thread-78] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
+2022-05-03 16:31:58.651  INFO 16032 --- [Thread-78] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
+2022-05-03 16:31:58.715  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:31:58.715  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:31:59.010  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:31:59.010  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:31:59.020  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:31:59.020  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:31:59.023  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:31:59.023  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:31:59.038  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:31:59.124  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:31:59.124  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:31:59.124  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:31:59.150  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:31:59.150  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 433 ms
+2022-05-03 16:31:59.173  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
+2022-05-03 16:31:59.177  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Start completed.
+2022-05-03 16:31:59.177  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:31:59.212  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:31:59.217  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:31:59.239  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:31:59.239  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:31:59.303  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:31:59.404  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60178746, org.springframework.security.web.context.SecurityContextPersistenceFilter@245ecccf, org.springframework.security.web.header.HeaderWriterFilter@3c3fed55, org.springframework.security.web.csrf.CsrfFilter@37965e1a, org.springframework.security.web.authentication.logout.LogoutFilter@77bd6e6e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1df3eaa1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6155b837, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5820f4d0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@52bdf5ae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a35ce79, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2923c32f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a84bb97, org.springframework.security.web.session.SessionManagementFilter@21bd306c, org.springframework.security.web.access.ExceptionTranslationFilter@439539e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a8c4074]
+2022-05-03 16:31:59.407  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:31:59.453  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:31:59.780  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:31:59.782  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:31:59.799  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:31:59.807  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.115 seconds (JVM running for 1555.835)
+2022-05-03 16:31:59.809  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' webSecurityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:32:48.669  INFO 16032 --- [Thread-82] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:32:48.670  INFO 16032 --- [Thread-82] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:32:48.670  INFO 16032 --- [Thread-82] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown initiated...
+2022-05-03 16:32:48.672  INFO 16032 --- [Thread-82] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown completed.
+2022-05-03 16:32:48.740  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:32:48.740  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:32:49.039  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:32:49.039  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:32:49.049  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:32:49.049  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:32:49.052  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:32:49.052  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:32:49.068  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:32:49.172  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:32:49.172  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:32:49.172  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:32:49.198  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:32:49.198  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 456 ms
+2022-05-03 16:32:49.222  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Starting...
+2022-05-03 16:32:49.226  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Start completed.
+2022-05-03 16:32:49.226  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:32:49.261  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:32:49.266  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:32:49.289  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:32:49.289  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:32:49.332  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:32:49.362  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:32:49.406  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:32:49.752  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d9d4e9f6-e293-45ba-a2f6-156d85b0376d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:32:49.762  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:32:49.766  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22935a5e, org.springframework.security.web.context.SecurityContextPersistenceFilter@72b436dd, org.springframework.security.web.header.HeaderWriterFilter@1592340b, org.springframework.web.filter.CorsFilter@49021e74, org.springframework.security.web.csrf.CsrfFilter@5cad259e, org.springframework.security.web.authentication.logout.LogoutFilter@50a18e27, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d9eee00, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@d99bc32, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@32617ba, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@c905c5a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4db87bff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@490e3c2f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ddaf908, org.springframework.security.web.session.SessionManagementFilter@47806a66, org.springframework.security.web.access.ExceptionTranslationFilter@2133c014, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6be91462]
+2022-05-03 16:32:49.788  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:32:49.802  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:32:49.810  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.094 seconds (JVM running for 1605.838)
+2022-05-03 16:32:49.811  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 16:33:07.750  INFO 16032 --- [Thread-86] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:33:07.751  INFO 16032 --- [Thread-86] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:33:07.752  INFO 16032 --- [Thread-86] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown initiated...
+2022-05-03 16:33:07.755  INFO 16032 --- [Thread-86] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown completed.
+2022-05-03 16:33:07.833  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Starting Application using Java 17.0.2 on DESKTOP-J63G7SB with PID 16032 (C:\Users\approxy\Desktop\Back-End\java\spring\springBoot\target\classes started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 16:33:07.834  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 16:33:08.155  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:33:08.155  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 16:33:08.165  INFO 16032 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 16:33:08.165  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2022-05-03 16:33:08.168  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 16:33:08.168  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 16:33:08.183  INFO 16032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-05-03 16:33:08.268  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-05-03 16:33:08.268  INFO 16032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 16:33:08.268  INFO 16032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 16:33:08.294  INFO 16032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 16:33:08.294  INFO 16032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 459 ms
+2022-05-03 16:33:08.316  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Starting...
+2022-05-03 16:33:08.320  INFO 16032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Start completed.
+2022-05-03 16:33:08.320  INFO 16032 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2022-05-03 16:33:08.357  INFO 16032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 16:33:08.362  INFO 16032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 16:33:08.385  INFO 16032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 16:33:08.385  INFO 16032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:33:08.430  INFO 16032 --- [restartedMain] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 16:33:08.464  WARN 16032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 16:33:08.505  INFO 16032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 16:33:08.832  WARN 16032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8efe7425-e3ad-4a47-b042-957b78706f85
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-03 16:33:08.842  INFO 16032 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 16:33:08.847  INFO 16032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78cfcf35, org.springframework.security.web.context.SecurityContextPersistenceFilter@6dcd5665, org.springframework.security.web.header.HeaderWriterFilter@303f6a16, org.springframework.web.filter.CorsFilter@1c99995d, org.springframework.security.web.csrf.CsrfFilter@1f4a4356, org.springframework.security.web.authentication.logout.LogoutFilter@52fd731e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1983d447, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3fa6232, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1b3f5765, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@41f197ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fa731e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@248389d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56bcf510, org.springframework.security.web.session.SessionManagementFilter@2050e1ca, org.springframework.security.web.access.ExceptionTranslationFilter@4db9fa3f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14f6c19c]
+2022-05-03 16:33:08.866  INFO 16032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-03 16:33:08.880  INFO 16032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-05-03 16:33:08.887  INFO 16032 --- [restartedMain] com.cagriyilmaz.Application              : Started Application in 1.081 seconds (JVM running for 1624.915)
+2022-05-03 16:33:08.889  INFO 16032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-03 16:34:37.774  INFO 16032 --- [SpringApplicationShutdownHook] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 16:34:37.774  INFO 16032 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 16:34:37.774  INFO 16032 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown initiated...
+2022-05-03 16:34:37.774  INFO 16032 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown completed.
+2022-05-03 17:56:08.062  INFO 8712 --- [main] com.cagriyilmaz.ApplicationTests         : Starting ApplicationTests using Java 17.0.2 on DESKTOP-J63G7SB with PID 8712 (started by approxy in C:\Users\approxy\Desktop\Back-End\java\spring\springBoot)
+2022-05-03 17:56:08.064  INFO 8712 --- [main] com.cagriyilmaz.ApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 17:56:09.122  INFO 8712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 17:56:09.124  INFO 8712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-05-03 17:56:09.165  INFO 8712 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.data.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 17:56:09.166  INFO 8712 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.cagriyilmaz.security.jwt._03_UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-05-03 17:56:09.167  INFO 8712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 0 JDBC repository interfaces.
+2022-05-03 17:56:09.175  INFO 8712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 17:56:09.176  INFO 8712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 17:56:09.222  INFO 8712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2022-05-03 17:56:09.926  INFO 8712 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 17:56:09.988  INFO 8712 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-03 17:56:10.179  INFO 8712 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-03 17:56:10.360  INFO 8712 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-03 17:56:10.518  INFO 8712 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-03 17:56:10.534  INFO 8712 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-03 17:56:11.244  INFO 8712 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 17:56:11.252  INFO 8712 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 17:56:11.835  WARN 8712 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 17:56:12.142  WARN 8712 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/swagger-ui/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-03 17:56:12.143  INFO 8712 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/swagger-ui/**']
+2022-05-03 17:56:12.144  WARN 8712 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/v3/api-docs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-03 17:56:12.144  INFO 8712 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/v3/api-docs/**']
+2022-05-03 17:56:12.144  WARN 8712 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/asm-swagger.html']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-03 17:56:12.145  INFO 8712 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/asm-swagger.html']
+2022-05-03 17:56:12.145  WARN 8712 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/api-docs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-03 17:56:12.145  INFO 8712 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/api-docs/**']
+2022-05-03 17:56:12.145  WARN 8712 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/api-docs/swagger-config']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-03 17:56:12.145  INFO 8712 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/api-docs/swagger-config']
+2022-05-03 17:56:12.145  WARN 8712 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/asm-swagger']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-03 17:56:12.145  INFO 8712 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/asm-swagger']
+2022-05-03 17:56:12.374  INFO 8712 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-03 17:56:13.495  INFO 8712 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-03 17:56:13.551  INFO 8712 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1146e32e, org.springframework.security.web.context.SecurityContextPersistenceFilter@116efe65, org.springframework.security.web.header.HeaderWriterFilter@33197c2f, org.springframework.web.filter.CorsFilter@511ad0dd, org.springframework.security.web.authentication.logout.LogoutFilter@7010c9e4, com.cagriyilmaz.security.jwt._09_JwtRequestFilter@38b0e2a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bec6682, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f24e33d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@634d56eb, org.springframework.security.web.session.SessionManagementFilter@2d5435d4, org.springframework.security.web.access.ExceptionTranslationFilter@496e0f9d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73502d5e]
+2022-05-03 17:56:13.580  INFO 8712 --- [main] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean başlamadan önce ben varım
+2022-05-03 17:56:14.387  INFO 8712 --- [main] com.cagriyilmaz.ApplicationTests         : Started ApplicationTests in 6.634 seconds (JVM running for 7.796)
+2022-05-03 17:56:14.961  INFO 8712 --- [SpringApplicationShutdownHook] com.cagriyilmaz.tutorials.dto.BeanDto    : Bean bittikten sonra ben varım
+2022-05-03 17:56:14.965  INFO 8712 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 17:56:14.968  INFO 8712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-03 17:56:14.976  INFO 8712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
